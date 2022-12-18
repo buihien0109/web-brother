@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, tr, th, td {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>FullName</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Văn A</td>
+                <td>CEO</td>
+                <td>3000$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần Văn B</td>
+                <td>Nhân viên</td>
+                <td>2000$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ngô Thị C</td>
+                <td>Thư ký</td>
+                <td>2500$</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>FullName</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Văn A</td>
+                <td>CEO</td>
+                <td>3000$</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Trần Văn B</td>
+                <td>Nhân viên</td>
+                <td>2000$</td>
+            </tr>
+            <tr>
+                <td>Trưởng phòng</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ngô Thị C</td>
+                <td>Thư ký</td>
+                <td>2500$</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>100000</td>
+                <td></td>
+                <td>Thái Bình</td>
+                <td>Việt Nam</td>
+            </tr>
+            <tr class="row-1">
+                <td>100000</td>
+                <td></td>
+                <td>Thái Bình</td>
+                <td>Việt Nam</td>
+            </tr>
+            <tr class="row-2">
+                <td>100000</td>
+                <td></td>
+                <td>Thái Bình</td>
+                <td>Việt Nam</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
