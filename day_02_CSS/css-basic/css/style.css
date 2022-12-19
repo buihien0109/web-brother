@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+h2 {
+    color: brown;
+}
+
+p {
+    color: darkorchid;
+}
+
+h2#heading.message.text.heading {
+    color: green;
+}
+
+#heading {
+    color: darkgoldenrod;
+}
+
+.message {
+    color: cornflowerblue;
+}
+
+div .message {
+    color: red;
+}
+
+p.message + p {
+    background-color: chocolate;
+    border: 1px solid black;
+    padding: 20px;
+    padding: 10px 20px;
+    padding: 10px 20px 10px;
+    margin-top: 70px;
+}
+
+#heading ~ p {
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.intro {
+    width: 80vw;
+    height: 50vh;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.banner {
+    width: 500px;
+    border: 10px solid red;
+    padding: 20px;
+    box-sizing: border-box;
+
+    font-size: 20px;
+
+    width: 80%;
+    height: 80%;
+    background-color: blue;
+}
+
+.banner p {
+    font-size: 2em;
+}
