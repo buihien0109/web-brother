@@ -15,16 +15,36 @@ img {
     max-width: 100%;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 33.33%;
+    padding: 0 15px;
+}
+
+
+/* style card */
 .card {
-    width: 340px;
-    margin: 50px;
+    /* width: 340px; */
     border-radius: 4px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
     overflow: hidden;
+    margin-bottom: 30px;
+
+    transition: all .3s;
+    cursor: pointer;
 }
 
 .card:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .thumbnail {

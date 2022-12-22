@@ -1,0 +1,49 @@
+body {
+    height: 2500px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.box-1 {
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+}
+
+.parent {
+    height: 500px;
+    background-color: cornflowerblue;
+    position: relative;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.btn-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.sticky {
+    padding: 20px;
+    background-color: green;
+
+    position: sticky;
+    top: 20px;
+}
