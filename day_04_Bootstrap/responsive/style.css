@@ -1,0 +1,27 @@
+.content {
+    height: 500px;
+    background-color: blue;
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        background-color: olive;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .content {
+        background-color:blueviolet;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .content {
+        background-color: green;
+    }
+}
+
+/* 1200
+992
+768
+576 */

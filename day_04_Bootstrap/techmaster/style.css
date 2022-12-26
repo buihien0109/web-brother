@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #30598c;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+}
+
+.navbar-brand img {
+    height: 37px;
+    object-fit: cover;
+    width: 100px;
+}
+
+#course {
+    background-color: #f5faff;
+}

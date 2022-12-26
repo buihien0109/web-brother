@@ -16,7 +16,7 @@ img {
 }
 
 .container {
-    width: 1200px;
+    width: 90%;
     margin: auto;
 }
 
@@ -82,4 +82,16 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 12px 0;
+}
+
+@media screen and (max-width: 992px) {
+    .col {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col {
+        flex-basis: 100%;
+    }
 }
