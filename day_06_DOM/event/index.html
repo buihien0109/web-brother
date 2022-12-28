@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            body {
+                height: 2000px;
+            }
+
+            #btn-top {
+                position: fixed;
+                right: 50px;
+                bottom: 50px;
+
+                background-color: tomato;
+                color: white;
+                padding: 20px 30px;
+                border: none;
+            }
+
+            .hide {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="btn-1" onclick="sayHello()">Click me 1</button>
+        <button id="btn-2">Click me 2</button>
+        <button id="btn-3">Click me 3</button>
+
+        <input type="text" placeholder="Enter keyword ..." />
+        <h1>Keyword : <span id="keyword"></span></h1>
+
+        <input type="password" placeholder="Enter password ..." id="password">
+        <button id="btn">show</button>
+
+        <button id="btn-top" class="hide">TOP</button>
+
+        <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam autem corrupti amet praesentium natus recusandae mollitia, nam error aperiam id illum minus similique. Placeat alias aliquid voluptatem? Aliquam, minima a?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, in? Sunt, voluptatibus temporibus. Inventore perferendis et doloribus aspernatur corrupti voluptate earum reiciendis sint eveniet officiis. Ipsum iure modi delectus ex.</p>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
